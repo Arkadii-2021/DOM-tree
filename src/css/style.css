@@ -1,0 +1,27 @@
+.card {
+  width: 800px;
+  margin-bottom: 0;
+}
+
+.cell-game {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cell {
+  width: 150px;
+  height: 150px;
+  margin: 0 15px 30px;
+  background: green;
+  border-radius: 50%;
+}
+
+.cell_has-goblin {
+  background-image: url(https://raw.githubusercontent.com/netology-code/ahj-homeworks/video/dom/pic/goblin.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: darkred;
+}
