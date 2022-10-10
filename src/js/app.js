@@ -4,15 +4,15 @@ export default class NewCell {
     this.activecell = 1;
   }
 
-  getCell(index) {
+  static getCell(index) {
     return document.getElementById(`cell${index}`);
   }
 
-  deactivateCell(index) {
+  static deactivateCell(index) {
     this.getCell(index).classList = 'cell';
   }
 
-  activatecell(index) {
+  static activatecell(index) {
     this.getCell(index).classList.toggle('cell_has-goblin');
   }
 
