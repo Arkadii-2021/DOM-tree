@@ -1,21 +1,22 @@
 .card {
-  width: 800px;
+  width: 600px;
   margin-bottom: 0;
 }
 
 .cell-game {
-  width: 800px;
+  width: 600px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+
 }
 
 .cell {
   width: 150px;
   height: 150px;
-  margin: 0 15px 30px;
+  outline-style: outset;
+  outline-color: darkgreen;
   background: green;
-  border-radius: 50%;
+  border-radius: 5%;
 }
 
 .cell_has-goblin {
@@ -23,5 +24,4 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: darkred;
 }
