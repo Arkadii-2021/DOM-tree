@@ -29,7 +29,7 @@ export default class NewCell {
   nextCell() {
     const next = () => setTimeout(() => {
       NewCell.deactivateCell(this.activecell);
-      this.activecell = Math.floor(1 + Math.random() * 9);
+      this.activecell = Math.floor(1 + Math.random() * 16);
       NewCell.activatecell(this.activecell);
       next();
     }, 1200);
